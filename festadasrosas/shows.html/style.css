@@ -1,0 +1,33 @@
+.imagem{
+    width:40%;
+		transform: scale(0.5);
+		transform: scale(1);
+	
+}
+p{
+    text-align: justify;
+}
+p{
+    text-indent: 2.5%;
+}
+a:hover{
+   color: dimgray ;
+    transition: 0.5s;
+}
+ 
+
+
+@keyframes img {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
