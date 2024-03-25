@@ -1,8 +1,19 @@
-.imagem{
-    width:40%;
-		transform: scale(0.5);
-		transform: scale(1);
+.evento {
+	text-align: center;
 	
+}
+.evento p {
+	color: rgb(187, 34, 93);
+}
+
+.atracoes .imagem{
+	width: 300px;
+	height: 300px;
+	border-style: solid 0px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+
 }
 p{
     text-align: justify;
@@ -14,20 +25,21 @@ a:hover{
    color: dimgray ;
     transition: 0.5s;
 }
- 
+.imagem:hover{
+	animation-name: claudio;
+	animation-duration: 1s;}
 
 
-@keyframes img {
+@keyframes claudio {
 	0% {
 		transform: scale(1);
 	}
 
 	50% {
-		transform: scale(1.1);
+		transform: scale(1.2);
 	}
 
 	100% {
 		transform: scale(1);
 	}
 }
-
